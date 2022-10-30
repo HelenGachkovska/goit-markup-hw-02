@@ -8,6 +8,7 @@
   --logo-color: #000;
   --bg-section-color: #f5f4fa;
   --bg-hero-btn: #188ce8;
+  --contact-color:  rgba(255, 255, 255, 0.6);
 }
 body {
   background-color: var(--bg-main-color);
@@ -82,6 +83,7 @@ body {
   font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
+  letter-spacing: 0.06em;
   border: none;
   cursor: pointer;
 }
@@ -186,7 +188,7 @@ body {
 }
 .contact-mail,
 .contact-tel {
-  color: var(--second-color);
+  color: var(--contact-color);
   font-style: normal;
   font-size: 14px;
   line-height: 1.71;
